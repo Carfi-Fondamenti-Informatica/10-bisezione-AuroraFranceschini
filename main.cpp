@@ -24,14 +24,14 @@ int main() {
             cout << f(x) << endl;
             return 0;
         } else {
-            if (f(a)*f(b) <0){
+            if (f(a)*f(x) <0){
                 b = x;
             } else {
                 a = x;
             }
             err = abs((b-a)/2);
         }
-    } while (err >= exp(1) -6 );
+    } while (err >= (exp(1) -6) );
     cout << (x*10000)/10000.0 <<endl;
     cout << f(x) << endl;
 
