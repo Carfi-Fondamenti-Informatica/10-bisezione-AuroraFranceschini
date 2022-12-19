@@ -32,7 +32,7 @@ int main() {
             err = abs((b-a)/2);
         }
     } while (err >= exp(1) -6 );
-    cout << (x*1000)/1000.0 <<endl;
+    cout << (x*10000)/10000.0 <<endl;
     cout << f(x) << endl;
 
     return 0;
